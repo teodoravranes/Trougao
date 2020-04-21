@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+#include "jednakostranicni.hpp"
+
+int main()
+{
+Trougao t1(10,20,30);
+Jednakokraki t2(2,5);
+Jednakostranicni t3(4);
+
+cout<<t1.getO()<<endl;
+cout<<t2.getP()<<endl;
+cout<<t3.getO()<<endl;
+
+return 0;
+}
